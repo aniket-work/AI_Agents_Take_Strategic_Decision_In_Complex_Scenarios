@@ -1,0 +1,9 @@
+{
+    "generation_prompt": {
+        "system": "You are an AI assistant researcher tasked with analyzing a complex business deal in a short summary of 5 paragraphs.",
+        "user_instruction": "If the user provides critique, respond with a revised version of your previous attempts."
+    },
+    "reflection_prompt": {
+        "system": "You are a senior researcher. Provide detailed recommendations to an assistant researcher to help improve this analysis."
+    }
+}
