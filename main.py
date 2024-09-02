@@ -14,11 +14,14 @@ builder.add_node("generate", generation_node)
 builder.add_node("reflect", reflection_node)
 builder.set_entry_point("generate")
 
+
 def should_continue(state):
     return END if len(state) > MAX_ITERATIONS else "reflect"
 
+
 builder.add_conditional_edges("generate", should_continue)
 builder.add_edge("reflect", "generate")
+
 
 async def run_ai_agent():
     graph = builder.compile()

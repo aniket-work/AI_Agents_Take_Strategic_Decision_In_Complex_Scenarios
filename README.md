@@ -63,12 +63,11 @@ In today's business world, AI isn't just a buzzword - it's becoming as essen
       - For Windows and Mac users: Double-click the downloaded installer file (.exe for Windows, .dmg for Mac) and follow the on-screen instructions
       - For Linux users: Open a terminal and run the following command:
 
-4. **Run - AI Agent To Solve Complex Question Using 'Decomposition and Aggregation'**
+4. **Run - AI Agent To Strategic decision for complex business scenario**
 
    ```bash 
-   # Run AI Agent To Solve Complex Question Using 'Decomposition and Aggregation' 
-   set OLLAMA_NUM_PARALLEL=10
-   python main_!.py   
+   # Run AI Agent To Strategic decision for complex business scenario   
+   streamlit run ui.py   
    ```
 
 
